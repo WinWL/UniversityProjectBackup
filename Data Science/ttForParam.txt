@@ -1,0 +1,21 @@
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 27 23:14:12 2019
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrr}
+  \hline
+AverageARI & mTry & nTree \\ 
+  \hline
+0.9977 & 4 & 350 \\ 
+  0.9976 & 3 & 350 \\ 
+  0.9976 & 6 & 550 \\ 
+  0.9974 & 3 & 500 \\ 
+  0.9973 & 9 & 450 \\ 
+  0.9615 & 1 & 550 \\ 
+  0.9612 & 1 & 450 \\ 
+  0.9609 & 1 & 600 \\ 
+  0.9575 & 1 & 300 \\ 
+  0.9571 & 1 & 350 \\ 
+   \hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 27 23:24:57 2019
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrr}
+  \hline
+AverageARI & Size & Maxit & Decay \\ 
+  \hline
+0.9970 & 7 & 500 & 0.00 \\ 
+  0.9970 & 6 & 300 & 0.25 \\ 
+  0.9969 & 2 & 300 & 0.50 \\ 
+  0.9968 & 5 & 300 & 0.50 \\ 
+  0.9968 & 6 & 300 & 0.00 \\ 
+  0.9773 & 7 & 400 & 0.50 \\ 
+  0.9769 & 2 & 200 & 0.25 \\ 
+  0.9740 & 4 & 500 & 0.25 \\ 
+  0.9738 & 7 & 500 & 0.50 \\ 
+  0.9709 & 3 & 400 & 0.25 \\ 
+   \hline
+\end{tabular}
+\end{table}

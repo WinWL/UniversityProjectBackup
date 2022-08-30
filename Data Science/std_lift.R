@@ -1,0 +1,18 @@
+std_lift<-function(fit,x){
+	qual<-quality(fit)
+	PA<-qual$support/qual$confidence
+	PB<-qual$confidence/qual$lift
+	n<-dim(x)[1]
+	UB<-(abs(PA+PB)+abs(PA-PB))/2
+	UB<-1/UB
+	LB1<-PA+PB-1
+	LB1<-LB1/(PA*PB)
+	LB1[LB1<4*params$support/(1+params$support)^2]<-4*params$support/(1+params$support)^2
+	LB2<-LB1
+	LB2[LB2<(params$confidence/PB)]<-(params$confidence/PB)[LB2<(params$confidence/PB)]
+	LB<-LB2
+	LB[LB<(params$support/(PA*PB))]<-(params$support/(PA*PB))[LB<(params$support/(PA*PB))]
+	slift<-(qual$lift-LB)/(UB-LB)
+	qual<-cbind(qual,slift)
+	qual
+}
